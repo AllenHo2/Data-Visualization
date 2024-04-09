@@ -69,7 +69,7 @@ d3.csv("https://gist.githubusercontent.com/AllenHo2/31a1cde4e1ff72b994ede5e42ec5
     .attr("x", w / 2)
     .attr("y", -margin.top / 2)
     .attr("text-anchor", "middle")
-    .text("New Chart")
+    .text("Average Cost of Groceries")
     .style("font-size", "20px");
 
   svg.append("text")
