@@ -73,7 +73,7 @@ d3.csv("https://gist.githubusercontent.com/AllenHo2/31a1cde4e1ff72b994ede5e42ec5
       .attr("x", w / 2)
       .attr("y", h + margin.bottom / 2)
       .attr("text-anchor", "middle")
-      .text("The bar colors do not have any meaning and misleads the reader + no legend. There is also a lot of visual cluttering at the bottom of the chart and no tooltips + *Giant Hamset in the Middle")
+      .text("The bar colors do not have any meaning and misleads the reader + no legend. There is also a lot of visual cluttering at the bottom of the chart and no tooltips & axis is wrong + *Giant Hamset in the Middle")
       .style("font-size", "14px");
 
   svg.append("text")
